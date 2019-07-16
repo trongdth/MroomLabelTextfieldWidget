@@ -14,8 +14,28 @@ Flutter widget that porting from JVFloatLabeledTextField in swift
 ### Use the package
 
 ```dart
-    import 'package:label_textfield_widget/label_textfield_widget.dart';
+import 'package:label_textfield_widget/label_textfield_widget.dart';
+
+LabelTextFieldWidget(
+    hintText: 'First Name',
+    showClearBtn: true,
+    showBorder: false,
+    lblNormalStyle: TextStyle(
+        color: Colors.black,
+    ),
+    lblHighlightStyle: TextStyle(
+        color: Colors.red,
+    ),
+)
 ```
+
+#### hintText
+
+The ```hintText``` of TextField widget.
+
+### showClearBtn
+
+```bool``` type which supports clear all text.
 
 ## Getting Started
 
