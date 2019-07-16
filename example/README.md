@@ -6,7 +6,7 @@ Flutter widget that porting from JVFloatLabeledTextField in swift
 
 ### Demo:
 
-<img src="screenshots/demo.gif" height="405em" />
+<img src="../screenshots/demo.gif" height="405em" />
 
 
 ## Usage
