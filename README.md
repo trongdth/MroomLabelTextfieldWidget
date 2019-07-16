@@ -4,9 +4,14 @@ Flutter widget that porting from JVFloatLabeledTextField in swift
 
 ### Show some :heart: and star the repo to support the project
 
+### Resources:
+- [Documentation](https://pub.dev/documentation/label_textfield_widget/latest)
+- [Pub Package](https://pub.dev/packages/label_textfield_widget)
+- [GitHub Repository](https://github.com/trongdth/MroomLabelTextfieldWidget)
+
 ### Demo:
 
-<img src="screenshots/demo.gif" height="405em" />
+![](https://raw.githubusercontent.com/trongdth/MroomLabelTextfieldWidget/master/screenshots/demo.gif)
 
 
 ## Usage
