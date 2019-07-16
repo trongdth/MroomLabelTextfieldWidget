@@ -1,6 +1,21 @@
-# example
+## label_textfield_widget
 
-A new Flutter project.
+Flutter widget that porting from JVFloatLabeledTextField in swift
+
+### Show some :heart: and star the repo to support the project
+
+### Demo:
+
+<img src="screenshots/demo.gif" height="405em" />
+
+
+## Usage
+
+### Use the package
+
+```dart
+    import 'package:label_textfield_widget/label_textfield_widget.dart';
+```
 
 ## Getting Started
 

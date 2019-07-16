@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Label Texfield Widget'),
+      home: MyHomePage(title: 'Label Textfield Widget'),
     );
   }
 }
