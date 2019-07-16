@@ -14,8 +14,49 @@ Flutter widget that porting from JVFloatLabeledTextField in swift
 ### Use the package
 
 ```dart
-    import 'package:label_textfield_widget/label_textfield_widget.dart';
+import 'package:label_textfield_widget/label_textfield_widget.dart';
+
+LabelTextFieldWidget(
+    hintText: 'First Name',
+    showClearBtn: true,
+    showBorder: false,
+    lblNormalStyle: TextStyle(
+        color: Colors.black,
+    ),
+    lblHighlightStyle: TextStyle(
+        color: Colors.red,
+    ),
+)
 ```
+
+#### hintText
+
+The ```hintText``` of TextField widget.
+
+#### showClearBtn
+
+```bool``` type which supports clear all text.
+
+#### showBorder
+
+```bool``` type.
+
+#### lblNormalStyle
+
+```TextStyle``` type. You can adjust the text style of smaller text when textfield has no text input.
+
+#### lblHighlightStyle
+
+```TextStyle``` type. You can adjust the text style of smaller text when textfield has text input.
+
+### Created & Maintained By
+
+[Trong Dinh](https://github.com/trongdth) ([@trongdth](https://www.twitter.com/trongdth))
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> * [Ethereum address: 0x9a1592C20A15f99AbB6b69E199f38D50Fa8372Ac]
+> * [EOS account: zcryptoman1z]
 
 ## Getting Started
 
