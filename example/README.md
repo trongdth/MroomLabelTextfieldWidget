@@ -35,25 +35,16 @@ LabelTextFieldWidget(
 )
 ```
 
-#### hintText
+### Parameters
 
-The ```hintText``` of TextField widget.
+| Parameter | Description |
+|---|---|
+| `hintText`* | The `hintText` of TextField widget. |
+| `showClearBtn` | `bool` type which supports clear all text. |
+| `showBorder` | `bool` type. |
+| `lblNormalStyle` | `TextStyle` type. You can adjust the text style of smaller text when textfield has no text input. |
+| `lblHighlightStyle` | `TextStyle` type. You can adjust the text style of smaller text when textfield has text input. |
 
-#### showClearBtn
-
-```bool``` type which supports clear all text.
-
-#### showBorder
-
-```bool``` type.
-
-#### lblNormalStyle
-
-```TextStyle``` type. You can adjust the text style of smaller text when textfield has no text input.
-
-#### lblHighlightStyle
-
-```TextStyle``` type. You can adjust the text style of smaller text when textfield has text input.
 
 ### Created & Maintained By
 
