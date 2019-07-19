@@ -47,7 +47,7 @@ class _LabelTextFieldWidgetState extends State<LabelTextFieldWidget> {
           }
         });
       }
-  });
+    });
     super.initState();
   }
 
@@ -96,7 +96,6 @@ class _LabelTextFieldWidgetState extends State<LabelTextFieldWidget> {
         border: (widget.showBorder) ? UnderlineInputBorder() : InputBorder.none,
         hintText: (isShowHintText) ? widget.hintText : '',
       ),
-      onSubmitted: (value) => print('1'),
       onTap: () => _onTap(),
       onChanged: (value) => _onChanged(value),
       onEditingComplete: () => _onComplete(),
